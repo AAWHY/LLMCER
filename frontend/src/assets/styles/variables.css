@@ -1,0 +1,63 @@
+:root {
+  /* Primary theme */
+  --primary: #1a365d;
+  --primary-light: #2d4a7c;
+  --primary-bg: #e8eef5;
+
+  /* Element Plus overrides */
+  --el-color-primary: #1a365d;
+  --el-color-primary-light-3: #2d4a7c;
+  --el-color-primary-light-5: #4a6a9a;
+  --el-color-primary-light-7: #8da4c4;
+  --el-color-primary-light-9: #e8eef5;
+  --el-color-primary-dark-2: #142a4a;
+
+  /* Text */
+  --text-primary: #2c3e50;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+
+  /* Borders */
+  --border-light: #e2e8f0;
+  --border-medium: #cbd5e1;
+
+  /* Backgrounds */
+  --bg-page: #1a365d;
+  --bg-card: #ffffff;
+  --bg-subtle: #f8fafc;
+  --bg-hover: #f1f5f9;
+
+  /* Dark (LLM section) */
+  --dark-bg: #1e293b;
+  --dark-card: #334155;
+  --dark-border: #475569;
+  --dark-deep: #0f172a;
+  --dark-text: #e2e8f0;
+  --dark-text-muted: #64748b;
+  --dark-text-subtle: #94a3b8;
+
+  /* Entity colors */
+  --entity-1: #ef4444;
+  --entity-2: #10b981;
+  --entity-3: #3b82f6;
+  --entity-4: #f59e0b;
+  --entity-5: #8b5cf6;
+  --entity-6: #ec4899;
+  --entity-7: #14b8a6;
+  --entity-8: #f97316;
+
+  /* Status colors */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #dc2626;
+  --info: #6366f1;
+  --cyan: #06b6d4;
+
+  /* Layout */
+  --left-width: 280px;
+  --right-width: 300px;
+  --gap: 3px;
+  --radius: 12px;
+  --radius-sm: 6px;
+  --radius-lg: 20px;
+}
