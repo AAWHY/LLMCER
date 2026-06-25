@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional
 
 from pathlib import Path
 
-_DEFAULT_LOGS_DIR = str(Path(__file__).resolve().parent.parent.parent.parent / "LLMCER" / "logs")
+_DEFAULT_LOGS_DIR = str(Path(__file__).resolve().parent.parent / "data" / "llmcer_legacy_logs")
 LLMCER_LOGS_DIR = os.environ.get("LLMCER_LOGS_DIR", _DEFAULT_LOGS_DIR)
 
 

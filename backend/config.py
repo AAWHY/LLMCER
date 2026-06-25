@@ -1,15 +1,9 @@
-import sys
 from pathlib import Path
 
 # Project paths
 SERVER_DIR = Path(__file__).parent
 PROJECT_DIR = SERVER_DIR.parent
 DATASETS_DIR = SERVER_DIR / "data" / "datasets"
-
-# Optional: LLMCER root for pipeline execution (not required for demo/replay)
-LLMCER_ROOT = PROJECT_DIR.parent / "LLMCER"
-if LLMCER_ROOT.is_dir():
-    sys.path.insert(0, str(LLMCER_ROOT))
 
 # OpenAI defaults — API key must be provided from frontend
 import os
