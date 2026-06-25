@@ -21,15 +21,6 @@ const advancedOpen = ref('')
       />
     </div>
 
-    <div class="param-group">
-      <div class="param-label">Blocking Strategy</div>
-      <el-select v-model="config.blockingStrategy" size="small" style="width:100%">
-        <el-option label="Filtering-based Block Creation" value="filtering" />
-        <el-option label="LSH-based Blocking" value="lsh" />
-        <el-option label="Canopy Blocking" value="canopy" />
-      </el-select>
-    </div>
-
     <el-collapse v-model="advancedOpen" class="advanced-collapse">
       <el-collapse-item title="Advanced Settings" name="advanced">
         <div class="param-group">
